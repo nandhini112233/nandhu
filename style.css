@@ -1,0 +1,80 @@
+.line{
+        background-color: cadetblue;
+    }
+    #new {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .parent p{
+        color: cornflowerblue;
+    }
+
+    p:hover{
+        color: brown;
+        background-color: rgb(184, 173, 194);
+    }
+
+    .border{
+        border: 2px solid black;
+        padding-top: 0px;
+    }
+
+    .margin1{
+        border: 2px solid black;
+    }
+
+    .static{
+        position: static;
+    }
+
+    .position{
+        border: 2px solid violet; 
+    }
+
+    .relative{
+        position: relative;
+        top: 70px;
+        left: 60px;
+    }
+
+    .page{
+        height: 100vh;
+    }
+
+    .fixed{
+        position: fixed;
+        left: 80px;
+    }
+
+    .sticky{
+        position: sticky;
+        top: 0;
+        font-size: xx-large;
+    }
+
+    .inline{
+        display: inline;
+    }
+
+    .flex-container{
+        display: flex;
+        /*flex-direction: column;*/
+    }
+
+.item{
+    background-color: peachpuff;
+    border: 2px solid brown;
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container div{
+    background-colour: peachpuff;
+    border: 2px soid brown;
+    height: 100px;
+    width: 100px;
+}
+
+.item2{
+     /*flex-grow: 2;*/
+    flex-shrink: 0;
+}
